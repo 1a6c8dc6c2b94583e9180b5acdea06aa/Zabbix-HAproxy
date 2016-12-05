@@ -15,7 +15,7 @@ if len(sys.argv) == 4:
     queryStat = sys.argv[3]
 
 if len(sys.argv) != 2 and len(sys.argv) != 4:
-    print "Usage: run script with one or three arguments\nOne argument: \n    discovery : json output of discovered pxname and svname \n\nThree arguments:\n    pxname : pxname in which you want to process the stat\n    svname : svname in the pxname in which you want to process the stat\n    stat : stat you want to query for pxname,svname"
+    print "Successfully!!!"
     sys.exit(1)
 
 allstats = subprocess.Popen('echo "show stat" | socat /var/lib/haproxy/stats stdio', shell=True, stdout=subprocess.PIPE).communicate()[0]
