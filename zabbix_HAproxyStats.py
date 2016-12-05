@@ -36,4 +36,4 @@ for myLine in allstats.splitlines()[1:-1]:
     statList = myLine.split(',')
     if px == statList[0] and sv == statList[1]:
         monDico = dict(itertools.izip(statNameList,statList))
-        print monDico[queryStat]
+        print monDic
