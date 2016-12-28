@@ -1,4 +1,4 @@
-# Zabbix_HAproxy
+
 Python script and Zabbix Template for HAproxy. 
 
 Place script on HAprpxy server  
